@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  border:solid black;
+  height:500vh;
+  margin:2em;
+  display:flex;
 }
 
 .App-logo {
@@ -35,4 +39,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.homepage{
+  border:solid peru;
+  width:50%;
+}
+.emp_page{
+  border:solid brown;
+  width:50%;
+}
+.header{
+  border:solid lightblue;
+  height:40px;
+}
+.topContainer{
+  border:solid black;
+  display:flex;
+  justify-content: space-around;
+}
+.profile{
+  border:solid blue;
+  border-radius:50%;
+  height:90px;
+  width:90px;
+}
+.infoBox{
+  border:solid purple;
+  width:40%;
+}
+.sbar{
+  border:solid green;
+}
+.emp_li{
+  border:solid red;
+  margin:1em;
+}
+.empMaster{
+  border:solid purple;
+  margin:1em;
+}
+.selectContainer{
+  border:solid black;
+  border-width:.2px;
+  margin:1em;
+  display:flex;
+  justify-content: space-between;
+}
+.optionBox{
+  border:solid navy;
+}
+.pTitle,.pNum{
+  /* border:solid black; */
+  font-size:15px;
+  text-align:center;
+  padding:2px;
+}
+.arrow{
+  height:30px;
+  margin-top:5%;
 }
