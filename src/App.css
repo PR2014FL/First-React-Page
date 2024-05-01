@@ -64,6 +64,15 @@
   border-radius:50%;
   height:90px;
   width:90px;
+ 
+}
+
+.profilePic {
+  height: 10vh;
+  float: left;
+  margin: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .infoBox{
   border:solid purple;
@@ -75,6 +84,10 @@
 .emp_li{
   border:solid red;
   margin:1em;
+}
+.name{
+  /* border: 1px solid ; */
+  text-align: left;
 }
 .empMaster{
   border:solid purple;
